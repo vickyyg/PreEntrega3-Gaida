@@ -1,0 +1,33 @@
+#pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        background-image:url("./IMG_3305.jpg");
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        background-size: cover;
+        height: 100px;
+        background-position: center center;
+        h1{
+            color: $color-fondo; 
+            font-weight: bold;
+        }
+    }
+
+#merch .container{
+    text-align: center;
+    padding: 200px 12px;
+        h2{
+            text-align: center;
+        }
+    }
+
+
+
+.img-container:hover{
+        filter: opacity(0.9);
+        transform:  scale(1.04);
+    }

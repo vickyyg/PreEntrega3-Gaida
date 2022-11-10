@@ -1,0 +1,185 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Chakra Petch', sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+h1 {
+  font-size: 3.5em;
+  color: #757373; }
+
+h2 {
+  font-size: 2.7em;
+  color: #757373; }
+
+h3 {
+  font-size: 2em;
+  color: #757373; }
+
+p {
+  font-size: 1.25em;
+  color: #757373; }
+
+ul {
+  list-style: none;
+  color: #757373; }
+
+button {
+  padding: 5px 10px;
+  border-radius: 0px;
+  border: none;
+  background-color: #4e0404;
+  font-size: 1.5em;
+  font-weight: bold; }
+  button:hover {
+    background-color: #880303; }
+  button .container {
+    max-width: 1400px;
+    margin: auto; }
+
+footer {
+  background-color: black; }
+  footer p {
+    margin: 0;
+    padding: 12px; }
+  footer .container {
+    height: 150px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end; }
+
+#contactanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  color: black;
+  height: 80vh; }
+  #contactanos h2 {
+    font-size: 9vw;
+    height: 150px;
+    color: black; }
+  #contactanos button {
+    font-size: 5vw; }
+
+.red-social a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  color: white;
+  transition: fill 170ms ease-in-out;
+  font-size: 30px; }
+  .red-social a:hover {
+    color: #cf0707; }
+
+.container .red-social {
+  justify-content: center;
+  text-align: center;
+  display: block; }
+
+header {
+  background-color: black; }
+  header .logo {
+    margin: 0;
+    padding: 25px 30px;
+    font-family: 'Rubik Dirt', cursive;
+    color: white;
+    font-size: 30px; }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px; }
+  header a {
+    padding: 4px 12px;
+    text-decoration: none;
+    color: #757373;
+    font-size: 17px;
+    transition: height 2s, width 2s; }
+  header:hover {
+    color: #cf0707;
+    height: 20px;
+    width: 90px; }
+
+#fechas {
+  text-align: center; }
+  #fechas .container {
+    padding: 100px 0px; }
+  #fechas h2 {
+    margin-top: 0; }
+  #fechas p {
+    display: none; }
+  #fechas .celdas {
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    height: 350px;
+    width: 500px; }
+
+.celdas h3 {
+  color: white;
+  background-color: black; }
+
+.celdas p {
+  color: white; }
+
+.celdas:first-child {
+  background-image: url(./pantas44.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.celdas:nth-child(2) {
+  background-image: url(./pantas3.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+.celdas:nth-child(3) {
+  background-image: url(./logopr.jpg);
+  background-position: center center;
+  background-size: cover; }
+
+#nosotros .container {
+  text-align: center;
+  padding: 250px 12px; }
+
+#nosotros li {
+  margin: 16px 0px; }
+
+#pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: url("./IMG_3305.jpg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  height: 100px;
+  background-position: center center; }
+  #pic h1 {
+    color: black;
+    font-weight: bold; }
+
+#merch .container {
+  text-align: center;
+  padding: 200px 12px; }
+  #merch .container h2 {
+    text-align: center; }
+
+.img-container:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04); }

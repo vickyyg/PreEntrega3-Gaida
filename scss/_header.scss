@@ -1,0 +1,38 @@
+header{
+        background-color: $color-fondo;
+
+    .logo{
+            margin: 0;
+            padding: 25px 30px;
+            font-family: 'Rubik Dirt', cursive;
+            color: white;
+            font-size: 30px;
+    }
+
+    .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+
+    nav{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 25px;
+    }
+
+    a{
+            padding: 4px 12px;
+            text-decoration: none;
+            color: $color-letras;
+            font-size: 17px;
+            transition: height 2s, width 2s;
+    }
+    &:hover{
+            color: $color-rojo ;
+            height: 20px;
+            width: 90px;
+    }
+    
+}

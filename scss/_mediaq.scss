@@ -1,0 +1,109 @@
+    @if $vista == mobile{
+        @media (min-width: 720px){
+            header{
+                position:fixed;
+                width: 100%;
+            }
+
+            header .container{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            header nav{
+                flex-direction: row;
+                padding-bottom: 0;
+                padding-right: 20px;
+            }
+
+            #pic h1{
+                font-size: 5em;
+            }
+
+            #merch .container{
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            #merch .texto{
+                width: 50%;
+                text-align: initial;
+                max-width: 600px;
+                padding-left: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            #merch h2{
+                margin-top: 0px;
+            }
+
+            #merch .img-container1{
+                background-image: url(./remes-pantas.jpg);
+                background-position: center center;
+                background-repeat: no-repeat;
+                height: 800px;
+                width: 600px;
+            }
+            #fechas .programas{
+                display: flex;
+                justify-content: center;
+            }
+
+            #fechas p{
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            #fechas h3{
+                margin-top: 0;
+            }
+
+            #fechas .celdas{
+                padding: 15px;
+            }
+
+            #nosotros{
+                background-position: calc(100vw - 500px) 120px;
+            }
+
+            #nosotros .container{
+                text-align: initial;
+            }
+
+            #nosotros ul{
+                margin-right: 200px;
+            }
+
+            #contactanos{
+                background-image: url(./IMG_3171.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position:center;
+            }
+
+            #contactanos h2{
+                font-size: 2em;
+            }
+
+            #contactanos button{
+                font-size: 1em;
+            }
+
+            footer .container{
+                justify-content: flex;
+            }
+        }
+    } @else if $vista == mobile{
+
+    @media (min-width: 1200px){
+        #nosotros{
+            background-position-x: calc(100vw - 800px);
+            }
+        }
+    }
+
+    @else {
+        
+        }

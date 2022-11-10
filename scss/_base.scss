@@ -1,0 +1,84 @@
+$color-primario: rgb(78, 4, 4);
+$color-secundario: rgb(136, 3, 3);
+$color-fondo: black; 
+$color-letras: rgb(117, 115, 115);
+$color-rojo: rgb(207, 7, 7);
+$alto: 300px;
+$vista: desktop;
+$color-redes: rgb(255, 255, 255);
+
+
+    body{
+        background-color: $color-fondo;
+        margin: 0;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    h1{
+        font-size: 3.5em ;
+        color: $color-letras
+    }
+
+    h2{
+        font-size: 2.7em;
+        color: $color-letras
+    }
+
+    h3{
+        font-size: 2em;
+        color: $color-letras ;
+    }
+
+    p{
+        font-size: 1.25em; 
+        color: $color-letras;
+    }
+
+    ul{
+        list-style: none;
+        color: $color-letras; 
+    }
+    
+    @mixin size-btn ($s, $w){
+        font-size: $s;
+        font-weight: $w;
+    }
+
+    button{
+        padding: 5px 10px;
+        border-radius: 0px;
+        border: none;
+        background-color: $color-primario;
+        @include size-btn(1.5em, bold);
+    
+    &:hover{
+        background-color: $color-secundario;
+    }
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    }
+
+footer{
+        background-color: $color-fondo;
+    p{
+        margin: 0;
+        padding: 12px;
+        
+    }
+    .container{
+        height: 150px;
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+    }
+    }

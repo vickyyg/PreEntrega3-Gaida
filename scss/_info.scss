@@ -1,0 +1,55 @@
+#fechas{
+    text-align: center;
+        .container{
+            padding: 100px 0px;
+        }
+        h2{
+            margin-top: 0;
+        }
+        p{
+            display: none;
+        }
+        .celdas{
+            padding: 50px;
+            margin: 20px;
+            border-radius: 15px;                                                                             
+            height: $alto + 50;
+            width: $alto + 200;
+    }
+}
+
+.celdas{
+        h3{
+            color: rgb(255, 255, 255);
+            background-color: $color-fondo;
+        }
+        p{
+            color: rgb(255, 255, 255);
+        }
+        &:first-child{
+            background-image: url(./pantas44.jpg);
+            background-position: center center;
+            background-size: cover;
+        }
+
+        &:nth-child(2){
+            background-image: url(./pantas3.jpg);
+            background-position: center center;
+            background-size: cover;
+        }
+        &:nth-child(3){
+            background-image: url(./logopr.jpg);
+            background-position: center center;
+            background-size: cover;
+        }
+}
+
+#nosotros .container{
+        text-align: center;
+        padding: 250px 12px;
+    }
+
+#nosotros li{
+        margin: 16px 0px;
+    }
+    
